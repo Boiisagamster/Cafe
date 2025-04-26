@@ -1,0 +1,145 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and fonts */
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFF8F0;
+    color: #3E2723;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #6F4E37;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .navbar a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('https://images.unsplash.com/photo-1525193612562-0ec53b0e5d7c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Replace with your coffee shop photo */
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 6rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background-color: #D9B382;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #3E2723;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  /* About Us */
+  .about {
+    padding: 60px 20px;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .about img {
+    width: 400px;
+    border-radius: 10px;
+  }
+  
+  .about .text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .about .text p {
+    font-size: 2rem;
+    line-height: 1.6;
+  }
+  
+  /* Signature Drinks */
+  .signature-drinks {
+    padding: 60px 20px;
+    background-color: #f7e5d1;
+    text-align: center;
+  }
+  
+  .signature-drinks h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 40px;
+  }
+  
+  .drink-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .card h3 {
+    margin-top: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+  }
+  
+  .card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #5d4037;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #6F4E37;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+  }
+  
